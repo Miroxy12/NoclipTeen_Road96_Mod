@@ -49,7 +49,7 @@ namespace NoclipTeen_Road96_Mod
                                 if (mainlogic.transform.GetChild(i).gameObject.name.Equals("Player")) {
                                     NoclipTeenMod.playerobj = mainlogic.transform.GetChild(i).gameObject;
                                     NoclipTeenMod.scenename = "";
-                                    UnityEngine.Debug.Log(NoclipTeenMod.playerobj.name);
+                                    //UnityEngine.Debug.Log(NoclipTeenMod.playerobj.name);
                                     break;
                                 }
                             }
